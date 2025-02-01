@@ -27,7 +27,7 @@ function Admin() {
     };
     if (!cookies.authToken || decrypt(cookies.authToken) != "admin-session") {
         return (
-            <Navigate to="/login" />
+            <Navigate to="/sql-tester/login" />
         );
     }
     return (

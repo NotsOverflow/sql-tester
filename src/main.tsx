@@ -23,9 +23,9 @@ createRoot(document.getElementById('root')!).render(
   <CookiesProvider>
     <BrowserRouter>
       <Routes>
-        <Route index element={<Login />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/admin" element={<Admin />} />
+        <Route path="/sql-tester/" element={<Login />} />
+        <Route path="/sql-tester/login" element={<Login />} />
+        <Route path="/sql-tester/admin" element={<Admin />} />
       </Routes>
     </BrowserRouter>
   </CookiesProvider>

@@ -77,7 +77,7 @@ function Login() {
 
     if (validateForm(formData)) {
       setCookie('authToken', encrypt('admin-session'));
-      navigate("/admin")
+      navigate("/sql-tester/admin")
     } else {
       toast.error(`Error: ${getMeANumber()} Unkown user `);
     }
