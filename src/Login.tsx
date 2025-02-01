@@ -40,7 +40,7 @@ function containsElement(arr: string[], target: string): boolean {
   return arr.includes(target);
 }
 
-const validInjections = getRandomEntries(payloads, payloads.length);
+const validInjections = getRandomEntries(payloads, 5);
 
 const validateForm = (data: FormData): boolean => {
 
@@ -63,7 +63,7 @@ function getMeANumber(): number {
 function Login() {
 
   const [formData, setFormData] = useState<FormData>(initialState);
-  const [cookies, setCookie] = useCookies(['authToken']);
+  const [, setCookie] = useCookies(['authToken']);
   const navigate = useNavigate();
 
   const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -83,9 +83,6 @@ function Login() {
       toast.error(`Error: ${getMeANumber()} Unkown user `);
     }
   };
-  if (cookies.authToken && decrypt(cookies.authToken) == "admin-session") {
-    return (<Admin />);
-  }
   return (
     <>
 
