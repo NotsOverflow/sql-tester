@@ -1,0 +1,15 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>Layer 1</title>
+  <line stroke="#000" stroke-width="10" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_2" y2="102" x2="76.5" y1="406" x1="87.5" fill="none"/>
+  <path id="svg_11" d="m89.5,320" opacity="NaN" stroke="#000" fill="none"/>
+  <line transform="rotate(-2.13527 406.598 257.347)" stroke="#000" stroke-width="10" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_3" y2="412.72423" x2="401.09755" y1="101.97023" x1="412.09755" fill="none"/>
+  <path id="svg_15" d="m82.5,214" opacity="NaN" stroke="#000" fill="none"/>
+  <path stroke-width="10" id="svg_17" d="m407.5,205c-121,81 -260,40 -327,5" opacity="NaN" stroke="#000" fill="none"/>
+  <path transform="rotate(1.44416 244 339.497)" stroke="#000" stroke-width="10" id="svg_23" d="m401.5,316c-116.55964,81 -250.45873,40 -315.00001,5" opacity="NaN" fill="none"/>
+  <path transform="rotate(1.44416 245 428.497)" stroke="#000" stroke-width="10" id="svg_24" d="m402.5,405c-116.55963,81 -250.45872,40 -315.00001,5" opacity="NaN" fill="none"/>
+  <text transform="matrix(2.67325 0 0 2.89611 -293.655 -293.304)" stroke="#000" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="24" id="svg_25" y="176" x="175.5" stroke-width="2" fill="#000000">SQLi</text>
+  <ellipse stroke="#000" ry="28" rx="164.5" id="svg_26" cy="102" cx="241" fill-opacity="0" stroke-width="10" fill="#0fffff"/>
+ </g>
+</svg>

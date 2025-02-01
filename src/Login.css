@@ -1,0 +1,73 @@
+/*
+*                                                                              *
+*               ╔╗╔┌─┐┌┬┐┌─┐╔═╗┬  ┬┌─┐┬─┐┌─┐┬  ┌─┐┬ ┬                          *
+*               ║║║│ │ │ └─┐║ ║└┐┌┘├┤ ├┬┘├┤ │  │ ││││                          *
+*               ╝╚╝└─┘ ┴ └─┘╚═╝ └┘ └─┘┴└─└  ┴─┘└─┘└┴┘                          *
+*                                                                              *
+*               App.css created 2025/01/21                                     *
+*               by Richard JUAN (contact@richard-juan.com)                     *
+*                                                                              *
+*               Copyright © 2025 Richard JUAN. All rights reserved             *
+*                                                                              *
+*/
+
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 3em;
+  font-weight: bolder;
+}
+
+.logo {
+  height: 15em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.form_title {
+  text-align: center;
+  width: 30vw;
+  background-color: rgb(131, 131, 131);
+  padding: 2vw 1vw;
+  border-radius: 10px 10px 0 0;
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 0px;
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 30vw;
+
+}
+
+.form {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 30vw;
+  padding: 2vw 1vw;
+  background-color: rgb(168, 168, 168);
+  border-radius: 0 0 10px 10px;
+}
+
+input {
+  border: 1px solid rgb(172, 171, 171);
+  border-radius: 10px;
+  padding: 1vw 1vw;
+  outline: none;
+  margin: 5px;
+  color: black;
+  background-color: rgb(235, 235, 235);
+}
