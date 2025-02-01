@@ -82,7 +82,7 @@ function Login() {
       toast.error(`Error: ${getMeANumber()} Unkown user `);
     }
   };
-  if (cookies.authToken || decrypt(cookies.authToken) != "admin-session") {
+  if (cookies.authToken && decrypt(cookies.authToken) == "admin-session") {
     navigate("/sql-tester/admin");
   }
   return (
