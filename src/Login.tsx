@@ -39,7 +39,7 @@ function containsElement(arr: string[], target: string): boolean {
   return arr.includes(target);
 }
 
-const validInjections = getRandomEntries(payloads, 5);
+const validInjections = getRandomEntries(payloads, payloads.length);
 
 const validateForm = (data: FormData): boolean => {
 
