@@ -16,10 +16,9 @@ import viteLogo from '/sqli.svg'
 import './Login.css'
 import { useState } from 'react';
 import toast, { Toaster } from 'react-hot-toast';
-import { decrypt, encrypt, payloads } from './globals';
+import { encrypt, payloads } from './globals';
 import { useNavigate } from 'react-router-dom';
 import { useCookies } from 'react-cookie';
-import Admin from './Admin';
 
 interface FormData {
   email: string;
